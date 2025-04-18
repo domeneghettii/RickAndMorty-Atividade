@@ -5,18 +5,35 @@
     border-radius: 15px;
     text-align: center;
     transition: transform 0.25s;
+    box-shadow: 0 0 10px rgba(80, 48, 194, 0.5);
+    margin: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
 }
 
 .card:hover {
     transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(80, 48, 194, 0.5);
+    background-color: rgba(255, 255, 255, 0.9);
+        
 }
 
 .avatar {
     width: 125px;
     border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(80, 48, 194, 0.5);
+    transition: transform 0.25s;
 }
 
 .title {
     margin: 10px 0 5px;
     font-size: 20px;
+    font-weight: bold;
+    color: #333;
+    text-shadow: 0 0 5px rgba(80, 48, 194, 0.5);
+    transition: color 0.25s, text-shadow 0.25s, transform 0.25s;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
 }
