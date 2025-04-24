@@ -24,7 +24,23 @@
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     color: white;
 }
+.buttonSearch {
+    background-color: #e71212;
+    border: none;
+    color: white;
+    padding: 10px 22px;
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
 
+.buttonSearch:hover {
+    background-color: #ff7f7f;
+    box-shadow: 0 0 10px rgba(255, 127, 127, 0.5);
+    transform: scale(1.05);
+}
 .buttonSearch {
     background: linear-gradient(135deg, #28a745, #34d058);
 }
@@ -33,6 +49,7 @@
     background: linear-gradient(135deg, #218838, #28a745);
     transform: scale(1.03);
 }
+
 
 .buttonReset {
     background: linear-gradient(135deg, #dc3545, #ff5e6c);
@@ -44,7 +61,7 @@
 }
 
 .buttonNav {
-    background: linear-gradient(135deg, #00c6ff, #0072ff);
+    background: linear-gradient(135deg, #ea00ff, #0072ff);
 }
 
 .buttonNav:hover {
@@ -184,6 +201,7 @@
     background-color: #09c1ff;
     box-shadow: 0 0 10px rgba(9, 193, 255, 0.5);
     transform: scale(1.05);
+    
 }
 
 .buttonReset {
@@ -201,5 +219,7 @@
 
 .buttonReset:hover {
     background-color: #ff7f7f;
+    box-shadow: 0 0 10px rgba(255, 127, 127, 0.5);
+    transform: scale(1.05);
 
 }
