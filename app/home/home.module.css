@@ -92,14 +92,16 @@
     color: #fff;
     text-shadow: 0 0 4px #000;
     text-align: center; 
-    
 }
 
 .loading {
     text-align: center;
-    color: #fff;
+    color: #19aace !important;
     font-size: 1.25rem;
     margin-top: 2rem;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    text-shadow: 0 0 4px #000;
 }
 
 .notFound {

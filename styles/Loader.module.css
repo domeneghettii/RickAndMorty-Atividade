@@ -5,6 +5,20 @@
     gap: 1rem;
 }
 
+.message {
+    background-color: rgb(81, 3, 137);
+    padding: 1.25rem;
+    border-radius: 50%;
+    color: #d156ed; 
+    font-weight: bold; 
+    font-size: 1.5rem; 
+    text-shadow: 0 0 4px #000;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
 .image {    
     border-radius: 50%;
 
